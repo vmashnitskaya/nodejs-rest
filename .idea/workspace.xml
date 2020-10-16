@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b6b0aac-9407-487b-99d4-4accb0a7bbc3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/resources/boards/board.db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/boards/board.memory.repository.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/boards/board.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/boards/board.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/boards/board.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/boards/column.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/users/user.db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.memory.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.memory.repository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.service.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iuKUfWJjxvt7shkJWEaCKr8waQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\Volha_Mashnitskaya\WebstormProjects\nodejs-rest\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Volha_Mashnitskaya\WebstormProjects\nodejs-rest\node_modules\prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b6b0aac-9407-487b-99d4-4accb0a7bbc3" name="Default Changelist" comment="" />
+      <created>1602752053747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602752053747</updated>
+      <workItem from="1602752054779" duration="643000" />
+      <workItem from="1602753986074" duration="5107000" />
+      <workItem from="1602834391462" duration="100000" />
+      <workItem from="1602834561923" duration="14414000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="328" y="57" key="#ESLint" timestamp="1602837613933">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="328" y="57" key="#ESLint/0.0.1536.834@0.0.1536.834" timestamp="1602837613933" />
+    <state x="464" y="185" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602849106703">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="464" y="185" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1602849106703" />
+    <state x="496" y="112" key="FileChooserDialogImpl" timestamp="1602834651503">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="496" y="112" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1602834651503" />
+    <state x="145" y="0" key="SettingsEditor" timestamp="1602834659797">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="145" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1602834659797" />
+  </component>
+</project>

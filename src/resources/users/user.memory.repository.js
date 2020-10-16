@@ -1,6 +1,23 @@
+const userDB = require('./user.db');
+
 const getAll = async () => {
-  // TODO: mock implementation. should be replaced during task development
-  return [];
+  return userDB.getAll();
 };
 
-module.exports = { getAll };
+const createUser = async user => {
+  return userDB.addUser(user);
+};
+
+const getById = async id => {
+  return userDB.getById(id);
+};
+
+const updateUser = async (id, user) => {
+  return userDB.updateUser(id, user);
+};
+
+const deleteUser = async id => {
+  return userDB.deleteUser(id);
+};
+
+module.exports = { getAll, createUser, getById, updateUser, deleteUser };
