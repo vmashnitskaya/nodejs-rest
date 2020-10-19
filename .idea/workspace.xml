@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b6b0aac-9407-487b-99d4-4accb0a7bbc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/boards/board.db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/boards/board.memory.repository.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/boards/board.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/boards/board.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/boards/board.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/boards/column.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/users/user.db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/boards/board.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/boards/board.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/task.db.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/task.db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/task.memory.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/task.memory.repository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/task.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/task.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/task.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/task.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/task.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/task.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/users/user.memory.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.memory.repository.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/users/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/users/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +58,8 @@
       <workItem from="1602753986074" duration="5107000" />
       <workItem from="1602834391462" duration="100000" />
       <workItem from="1602834561923" duration="14414000" />
+      <workItem from="1603048843182" duration="58000" />
+      <workItem from="1603048922527" duration="7075000" />
     </task>
     <servers />
   </component>

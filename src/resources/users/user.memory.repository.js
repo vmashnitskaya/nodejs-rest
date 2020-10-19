@@ -5,7 +5,7 @@ const getAll = async () => {
 };
 
 const createUser = async user => {
-  return userDB.addUser(user);
+  return userDB.createUser(user);
 };
 
 const getById = async id => {
