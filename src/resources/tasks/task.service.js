@@ -4,10 +4,7 @@ const Task = require('./task.model');
 const getByBoardId = id => tasksRepo.getByBoardId(id);
 
 const createTask = async (id, newTask) => {
-  if (newTask.boardId !== id) {
-    return 'Bad request';
-  }
-  const task = new Task(newTask);
+  const task = new Task({ ...newTask, boardId: id });
   return await tasksRepo.createTask(task);
 };
 

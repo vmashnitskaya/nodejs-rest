@@ -10,7 +10,8 @@ class Board {
 
   static toResponse(board) {
     const { id, title, columns } = board;
-    return { id, title, columns };
+    const columnsResponse = columns.map(el => Column.toResponse(el));
+    return { id, title, columns: columnsResponse };
   }
 }
 

@@ -14,7 +14,10 @@ class TaskDB {
   }
 
   getByBoardId(id) {
-    return this.db.filter(el => el.boardId === id);
+    if (this.db.length > 0) {
+      return this.db.filter(el => el.boardId === id);
+    }
+    return this.db;
   }
 
   createTask(newTask) {
@@ -23,7 +26,7 @@ class TaskDB {
   }
 
   getByBoardTaskIds(boardId, taskId) {
-    return this.db.filter(el => el.boardId === boardId && el.id === taskId)[0];
+    return this.db.find(el => el.boardId === boardId && el.id === taskId);
   }
 
   updateTask(boardId, taskId, task) {
@@ -39,12 +42,14 @@ class TaskDB {
   }
 
   deleteTask(boardId, taskId) {
-    const filtered = this.db.filter(
-      el => el.id !== taskId && el.boardId !== boardId
+    const element = this.db.find(
+      el => el.id === taskId && el.boardId === boardId
     );
-    const elementFound = filtered && filtered.length !== this.db.length;
-    this.db = filtered;
-    return elementFound;
+    if (element) {
+      this.db.splice(this.db.indexOf(element), 1);
+      return true;
+    }
+    return false;
   }
 
   deleteTasksByBoardId(boardId) {

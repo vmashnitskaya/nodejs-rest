@@ -1,7 +1,7 @@
 const userDB = require('./user.db');
 
 const getAll = async () => {
-  return userDB.getAll();
+  return await userDB.getAll();
 };
 
 const createUser = async user => {

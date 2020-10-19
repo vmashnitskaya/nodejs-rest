@@ -22,7 +22,11 @@ router
   .get(async (req, res) => {
     const { id } = req.params;
     const result = await usersService.getById(id);
-    res.status(200).json(User.toResponse(result));
+    if (result) {
+      res.status(200).json(User.toResponse(result));
+    } else {
+      res.status(404).json({ message: 'User not found' });
+    }
   })
   .put(async (req, res) => {
     const { id } = req.params;
@@ -34,7 +38,6 @@ router
   .delete(async (req, res) => {
     const { id } = req.params;
     const result = await usersService.deleteUser(id);
-    console.log(result);
     if (result) {
       res.status(204).json({ message: 'The user has been deleted' });
     } else {

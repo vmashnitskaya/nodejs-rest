@@ -7,7 +7,9 @@ router
   .get(async (req, res) => {
     const { boardId } = req.params;
     const result = await taskService.getByBoardId(boardId);
-    res.status(200).json(result.map(el => Task.toResponse(el)));
+    res
+      .status(200)
+      .json(result.length > 0 ? result.map(el => Task.toResponse(el)) : []);
   })
   .post(async (req, res) => {
     const { boardId: id } = req.params;
@@ -21,11 +23,7 @@ router
       boardId,
       columnId
     });
-    if (typeof result === 'string') {
-      res.status(400).json({ message: result });
-    } else {
-      res.status(200).json(Task.toResponse(result));
-    }
+    res.status(200).json(Task.toResponse(result));
   });
 
 router
@@ -33,7 +31,11 @@ router
   .get(async (req, res) => {
     const { boardId, taskId } = req.params;
     const result = await taskService.getByBoardTaskIds(boardId, taskId);
-    res.status(200).json(result ? Task.toResponse(result) : {});
+    if (result) {
+      res.status(200).json(Task.toResponse(result));
+    } else {
+      res.status(404).json({ message: 'Not found' });
+    }
   })
   .put(async (req, res) => {
     const { boardId: id, taskId } = req.params;

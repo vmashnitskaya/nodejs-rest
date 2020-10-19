@@ -25,7 +25,11 @@ class BoardDB {
   }
 
   getById(id) {
-    return this.db.length > 0 ? this.db.filter(el => el.id === id)[0] : [];
+    let element = null;
+    if (this.db.length > 0) {
+      element = this.db.find(el => el.id === id);
+    }
+    return element;
   }
 
   updateBoard(id, board) {
@@ -41,14 +45,12 @@ class BoardDB {
   }
 
   deleteBoard(id) {
-    if (this.db.length > 0) {
-      const filtered = this.db.filter(el => el.id !== id);
-      if (filtered.length !== this.db.length) {
-        this.db = filtered;
-        return true;
-      }
-      return false;
+    const element = this.db.find(el => el.id === id);
+    if (element) {
+      this.db.splice(this.db.indexOf(element), 1);
+      return true;
     }
+    return false;
   }
 }
 
